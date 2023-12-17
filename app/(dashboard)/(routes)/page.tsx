@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import Image from "next/image";
 
 export default function Home() {
-  return <h1 className="font-extrabold">Heloo Wolrd
+  return <h1 className="font-extrabold">This is protected auth page
   <Button>Get Started</Button>
   </h1>;
 }
