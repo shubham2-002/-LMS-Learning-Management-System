@@ -1,8 +1,7 @@
 import { Button } from "@/components/ui/button";
-import Image from "next/image";
-
+import { UserButton } from "@clerk/nextjs";
 export default function Home() {
-  return <h1 className="font-extrabold">This is protected auth page
-  <Button>Get Started</Button>
-  </h1>;
+  return <div>
+    <UserButton afterSignOutUrl="/"/>
+  </div>
 }
